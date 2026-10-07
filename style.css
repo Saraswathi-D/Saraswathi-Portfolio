@@ -213,10 +213,55 @@ nav ul li a:hover{
 
 /* Internship */
 
-#internship p{
-    max-width:850px;
-    margin:15px auto;
-    line-height:1.8;
+.internship-section{
+    scroll-margin-top:90px;
+}
+
+.internship-content{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.internship-cards{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.internship-card{
+    min-height:0;
+    text-align:left;
+}
+
+.internship-top{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+}
+
+.internship-top h3{
+    margin-bottom:0;
+}
+
+.internship-top h4{
+    color:#cbd5e1;
+    font-size:16px;
+    font-weight:500;
+}
+
+.internship-top span{
+    color:#94a3b8;
+    font-size:14px;
+}
+
+.internship-card ul{
+    padding-left:22px;
+}
+
+.internship-card li{
+    color:#cbd5e1;
+    line-height:1.7;
 }
 
 
@@ -306,6 +351,10 @@ footer{
 
     .section{
         padding:50px 20px;
+    }
+
+    .internship-section{
+        scroll-margin-top:80px;
     }
 
 
